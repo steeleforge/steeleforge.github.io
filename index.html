@@ -1,0 +1,29 @@
+---
+layout: page
+title: Howdy
+group: index
+---
+{% include JB/setup %}
+
+<div class="index-hero hero-unit">
+  <h1>Howdy</h1>
+  <p>Welcome to my idle thoughts youth hostel. Please enjoy my think clouds.</p>
+  <p><a class="btn btn-primary btn-large" href="{{ BASE_PATH }}/about.html">About »</a></p>
+</div>
+<div class="row-fluid">
+  <div class="span6">
+    <h2>What's New?</h2>
+    <p>
+      I've decided to try to commit to more experiments in my free time. The first of which was to reduce the clutter of my homepage and the associated baggage of managing it in Drupal.
+    </p>
+    <p><a class="btn" href="/2012/03/02/refresh">More »</a></p>
+  </div><!--/span-->
+  <div class="span6">
+    <h2>Recent Essays</h2>
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div><!--/span-->
+</div>
