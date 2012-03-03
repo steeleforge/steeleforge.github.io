@@ -150,6 +150,14 @@ footer {
 	color:#FFF;
 }
 
+/* page/post specific */
+
+.index-hero {
+  background-image: url("../img/splash.png");
+  background-repeat: no-repeat;
+  padding-left: 18%;
+}
+	
 
 /* Responsive ======================================================== */
 
@@ -180,13 +188,12 @@ footer {
     font-family: Helvetica, Verdana, Arial;
     text-shadow: 0 1px 0 #777;
   }
+  
+  .index-hero {
+    background-image: url("../img/splash.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-left: 2%;
+    padding-right: 20%;
+  }
 }
-
-/* page/post specific */
-
-.index-hero {
-  background-image: url("../img/splash.png");
-  background-repeat: no-repeat;
-  padding-left: 18%;
-}
-	
