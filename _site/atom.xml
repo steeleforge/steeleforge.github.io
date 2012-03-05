@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>steeleforge</title>
+ <link href="http://steeleforge.com/atom.xml" rel="self"/>
+ <link href="http://steeleforge.com"/>
+ <updated>2012-03-04T23:23:30-06:00</updated>
+ <id>http://steeleforge.com</id>
+ <author>
+   <name>David Steele</name>
+   <email>david@steeleforge.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Refresh</title>
+   <link href="http://steeleforge.com/2012/03/02/refresh"/>
+   <updated>2012-03-02T00:00:00-06:00</updated>
+   <id>hhttp://steeleforge.com/2012/03/02/refresh</id>
+   <content type="html">
+
+Tech Stack
+&lt;ul&gt;
+  &lt;li&gt;Jekyll Bootstrap&lt;/li&gt;
+  &lt;li&gt;Twitter Bootstrap&lt;/li&gt;
+  &lt;li&gt;Github&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Back end Web Developers, Please Step Forward</title>
+   <link href="http://steeleforge.com/development/2010/06/15/back-end-web-developers-please-step-forward"/>
+   <updated>2010-06-15T00:00:00-05:00</updated>
+   <id>hhttp://steeleforge.com/development/2010/06/15/back-end-web-developers-please-step-forward</id>
+   <content type="html">
+
+&lt;img src=&quot;/assets/static/front-to-back.png&quot; alt=&quot;front to back&quot;/&gt;
+
+&lt;p&gt;
+  Organizations that create web and web-related applications will commonly, but not always, divide project tasks between front-end and back-end developers. Front-end developers are primarily responsible for user-facing aspects of an application which includes display, interaction design, cross-browser compatibility, client-side logic, accessibility, and usability. Back-end developers are responsible for the machinations of the application behind the front-end. A back-end developers domain often includes maintaining business rules, abstracting problems to objects and procedures, data transactions, integration with other systems, security, and performance. A lot is left out of this description, but I hope you get the picture. Still with me? Good.
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;
+  Server-side/back-end web developers, if you work with talented front-end developers, you may have become spoiled and are missing out on current efficiencies and future opportunities. I'm a back-end developer, and I believe there are compelling reasons to invest time into obtaining fluency of front-end technologies and concepts.
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;
+  Back-end developers, consider for a moment what you actually enjoy about development. Programmers, as a collective, tend to share many traits, but none so much as the pleasure of solving problems! Programming languages, frameworks, and design patterns just provide syntax, scaffolding, and structure to how you address those problems. Eliminating the front-end from what you perceive as the problem domain you operate within is myopic at best, and at worst, a huge lost opportunity to encounter new challenges and tackle interesting problems.
+&lt;p&gt;
+  I'm not saying you have to dive in heads first as a full-on front-end developer necessarily (not yet at least), but do yourself a favor and get your feet wet.
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;
+  Back-end developers don't need to be responsible for the same depth of front-end competencies that the front-end developer role necessitates. But a good understanding of what they do, and what they need, and what they consider important allows you to act as an advocate for better-informed design decisions and collaborate better. Appropriate delegation between the client-side and server-side removes future roadblocks. Projects complete more smoothly when the back-end developer can adapt themselves to be both an integrator and ambassador. There is tremendous value in bridging the gap between camps that can occasionally generate friction. The common goal is to deliver an elegantly executed application.
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;
+  Let's take a look at some specific skills that a back-end developer can benefit from today. For starters, CSS and validated XHTML should not seem like an abstraction that you needn't concern yourself with. Even with tag libraries, you have to know how to play nicely with stylesheets. Modern web applications involve dynamic experiences and immediate feedback most often provided by DOM manipulation with Javascript. Javascript used to really hurt to work in, but it has gotten&amp;nbsp;&lt;i&gt;much&lt;/i&gt;&amp;nbsp;better with new tools and frameworks. A back-end developer can save a lot of time by grokking the DOM, browser developer tools/plugins, and the basics of well-maintained Javascript libraries (e.g. Prototype, jQuery, Dojo, MooTools, etc). Additionally, if you will forgive the buzzwords, AJAX/&lt;a id=&quot;vxfm&quot; title=&quot;AHAH&quot; href=&quot;http://microformats.org/wiki/rest/ahah&quot;&gt;AHAH&lt;/a&gt;&amp;nbsp;has become a standard technique that you should to have a grasp of. Unless you write your own, Javascript libraries will often provide a means to perform asynchronous requests and back-end developers will have to negotiate with front-end developers to determine what each endpoint expects and transmits. Some of your favorite web applications utilize a technique called&amp;nbsp;&lt;a id=&quot;q_o2&quot; title=&quot;comet&quot; href=&quot;http://en.wikipedia.org/wiki/Comet_(programming)&quot;&gt;comet&lt;/a&gt;&amp;nbsp;or long-polling. With comet, the browser performs background requests for updates to an application or service, which can create the appearance of information being 'pushed' to the end user in real-time (e.g. web e-mail applications). This technique is a beautiful example for front and back-end technologies converging to enhance web applications. Last but not least, developers should be on the same page in terms of supported browsers; knowledge of cross-browser/version/capability compatibility will become increasingly important. Presently, the standards compliance battle mostly involves rendering styled markup, but&amp;nbsp;&lt;a id=&quot;m4nx&quot; title=&quot;more complex issues&quot; href=&quot;http://arstechnica.com/open-source/news/2009/07/decoding-the-html-5-video-codec-debate.ars&quot;&gt;more complex issues&lt;/a&gt;&amp;nbsp;may reside in the horizon.
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;
+  The above will help your current projects, but they might be coming along swimmingly without the extra effort. Fine, but let's talk about the future landscape and its impact on your role.&amp;nbsp;&lt;a id=&quot;gt2l&quot; title=&quot;HTML5&quot; href=&quot;http://dev.w3.org/html5/spec/Overview.html&quot;&gt;HTML5&lt;/a&gt;&amp;nbsp;will be a game changer. First of all, the HTML5 spec enables new, rigorous scripting capabilities for presenting, manipulating, and interacting with media. Many individual features are ripe with existing new opportunities, but also create new minefields to navigate and best practices to establish. For some concrete examples, some of the more obvious additions include&amp;nbsp;&lt;a id=&quot;h695&quot; title=&quot;WebSockets&quot; href=&quot;http://dev.w3.org/html5/websockets/&quot;&gt;WebSockets&lt;/a&gt;&amp;nbsp;and embedded databases. WebSockets allows browsers to establish and maintain, through Javascript, a persistent, bi-directional TCP connection for communication with servers/services that are adapted use the WebSocket protocol. Despite criticism of the protocol, this could effectively replace comet since it is less wasteful and could support streaming. HTML5 will also allow for client-side data storage to a browser-embedded database where transactions occur through Javascript. Geolocation is also an interesting HTML5 feature that will attempt to use GPS capabilities but resort to assuming a location based on IP address (which will often be woefully inaccurate). The obvious trend here is that the web browser is increasingly becoming a richer client and the distinction between front-end and back-end ownership may become blurred, necessitating high collaboration and/or vigorous cross-training. Who will own these pieces on your team and who would be best suited to establish _&lt;i&gt;security&lt;/i&gt;_ around these features? Do you feel dread or anticipation? Doesn't matter, it's coming and you should prepare.
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;
+  Alright, not everyone responds positively to FUD. I get that, and that's not how I want this to come across. But don't get blind-sided! Let's boil this down into some takeaways:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Learn some front-end concepts and techniques to get ahead of the curve.&lt;/li&gt;
+    &lt;li&gt;Take advantage of incredible new client-side features.&lt;/li&gt;
+    &lt;li&gt;Encourage usability, accessibility, and interaction where possible.&lt;/li&gt;
+    &lt;li&gt;Improve project execution and augment your own personal technique toolkit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The web will change with or without you. I have little doubt that those stubbornly observing the artificial jurisdictions carved up to accomodate today's web project team will, tomorrow, become the expensive, out-of-touch grey-beards that are the first to go for every generational wave of technically ambidextrous programmers entering the market. Knowledge workers, particularly in Information Technology, must struggle to stay relevant; it's what you implicitly sign up for in this industry. Progressing web standards are defining new landscapes, and familiarity with the current lay of the land can inform how you approach those new frontiers and make you a more effective web developer.&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>
