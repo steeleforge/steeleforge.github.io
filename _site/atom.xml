@@ -4,7 +4,7 @@
  <title>steeleforge</title>
  <link href="http://steeleforge.com/atom.xml" rel="self"/>
  <link href="http://steeleforge.com"/>
- <updated>2012-03-04T23:23:30-06:00</updated>
+ <updated>2012-03-06T00:02:13-06:00</updated>
  <id>http://steeleforge.com</id>
  <author>
    <name>David Steele</name>
@@ -34,7 +34,7 @@ Tech Stack
    <id>hhttp://steeleforge.com/development/2010/06/15/back-end-web-developers-please-step-forward</id>
    <content type="html">
 
-&lt;img src=&quot;/assets/static/front-to-back.png&quot; alt=&quot;front to back&quot;/&gt;
+&lt;img src=&quot;/assets/static/20100615/front-to-back.png&quot; alt=&quot;front to back&quot;/&gt;
 
 &lt;p&gt;
   Organizations that create web and web-related applications will commonly, but not always, divide project tasks between front-end and back-end developers. Front-end developers are primarily responsible for user-facing aspects of an application which includes display, interaction design, cross-browser compatibility, client-side logic, accessibility, and usability. Back-end developers are responsible for the machinations of the application behind the front-end. A back-end developers domain often includes maintaining business rules, abstracting problems to objects and procedures, data transactions, integration with other systems, security, and performance. A lot is left out of this description, but I hope you get the picture. Still with me? Good.
