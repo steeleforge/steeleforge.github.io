@@ -1,19 +1,24 @@
 $(document).ready () ->
   tmpl = "Welcome to my <%= term11 %> <%= term12 %>. Please enjoy my <%= term21 %> <%= term22 %>.";
   
-  get_rand = (arr) ->
-    index = Math.floor(Math.random()*arr.length)
-    if arr and index < arr.length
-      arr[index]
-  
+  get_rand = (max,blacklist) ->
+    i = Math.floor(Math.random()*max)
+    return i if !blacklist?
+    return i if i != blacklist
+    get_rand max, blacklist
+      
   handle_success = (data) ->
     out = _.template(tmpl)
     target = $('#welcome-message')
+    i11 = get_rand data.terms.term1.length
+    i21 = get_rand data.terms.term1.length, i11
+    i12 = get_rand data.terms.term2.length
+    i22 = get_rand data.terms.term2.length, i12
     terms = {
-      "term11": get_rand data.terms.term1
-      "term12": get_rand data.terms.term2
-      "term21": get_rand data.terms.term1
-      "term22": get_rand data.terms.term2
+      "term11": data.terms.term1[i11]
+      "term12": data.terms.term2[i12]
+      "term21": data.terms.term1[i21]
+      "term22": data.terms.term2[i22]
     }
     target.html out terms
     
