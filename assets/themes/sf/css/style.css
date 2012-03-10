@@ -83,8 +83,9 @@ footer {
   display: none;
 }
 
-.well ul {
+.well ul.nav {
   text-align: left;
+  margin-bottom: 0px;
 }
 
 .well .nav-pills a.active {
