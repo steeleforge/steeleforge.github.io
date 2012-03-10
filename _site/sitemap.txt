@@ -9,5 +9,6 @@ http://steeleforge.com/pages.html
 http://steeleforge.com/sitemap.txt
 http://steeleforge.com/tags.html
 
+http://steeleforge.com/2012/03/10/budget-rig
 http://steeleforge.com/2012/03/02/refresh
 http://steeleforge.com/development/2010/06/15/back-end-web-developers-please-step-forward

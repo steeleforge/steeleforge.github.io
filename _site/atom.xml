@@ -4,13 +4,39 @@
  <title>steeleforge</title>
  <link href="http://steeleforge.com/atom.xml" rel="self"/>
  <link href="http://steeleforge.com"/>
- <updated>2012-03-10T11:58:21-06:00</updated>
+ <updated>2012-03-10T15:48:38-06:00</updated>
  <id>http://steeleforge.com</id>
  <author>
    <name>David Steele</name>
    <email>david@steeleforge.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Budget Rig</title>
+   <link href="http://steeleforge.com/2012/03/10/budget-rig"/>
+   <updated>2012-03-10T00:00:00-06:00</updated>
+   <id>hhttp://steeleforge.com/2012/03/10/budget-rig</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;ve been collecting parts to build a budget desktop. Having not built one in 6 years, there&amp;#8217;s absolutely a lot to learn.&lt;/p&gt;
+
+&lt;h3 id='build_to_date'&gt;Build to date:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sandybridge i5 2500K&lt;/li&gt;
+
+&lt;li&gt;ASUS Z68-V&lt;/li&gt;
+
+&lt;li&gt;Kingston Hyper-X DDR3 1333Mhz&lt;/li&gt;
+
+&lt;li&gt;Antec NEO ECO 620W PSU&lt;/li&gt;
+
+&lt;li&gt;Random Samsung DVD writer&lt;/li&gt;
+
+&lt;li&gt;Random old case&lt;/li&gt;
+
+&lt;li&gt;TBD: Video card! (waiting for Kepler impact)&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
  
  <entry>
    <title>Refresh</title>
