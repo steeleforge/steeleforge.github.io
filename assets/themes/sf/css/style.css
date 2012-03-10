@@ -1,6 +1,38 @@
+@font-face {
+    font-family: 'QuicksandBook';
+    src: url('../fonts/Quicksand_Book-webfont.eot');
+    src: url('../fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Quicksand_Book-webfont.woff') format('woff'),
+         url('../fonts/Quicksand_Book-webfont.ttf') format('truetype'),
+         url('../fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'QuicksandLight';
+    src: url('../fonts/Quicksand_Light-webfont.eot');
+    src: url('../fonts/Quicksand_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Quicksand_Light-webfont.woff') format('woff'),
+         url('../fonts/Quicksand_Light-webfont.ttf') format('truetype'),
+         url('../fonts/Quicksand_Light-webfont.svg#QuicksandBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* Override some defaults */
 html, body {
   background: #fcfcfc url('../img/bg.png') repeat;
+}
+
+p, span, a {
+  font-family: "QuicksandLight";
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "QuicksandBook";
+  font-weight: normal;
 }
 
 body {
@@ -62,6 +94,8 @@ footer {
 .well .nav-header {
   padding-left: 0em;
   border-bottom: 1px solid #eee;
+  font-family: "QuicksandBook";
+  text-transform: uppercase;
 }
 
 .twitter-follow-button {
@@ -80,10 +114,13 @@ footer {
   padding-top: 20px;
   padding-bottom: 5px;
   color: #eee;
-  font-family: Helvetica, Verdana, Arial;
   text-shadow: 0 1px 0 #777;
 }
 
+.nav li a {
+  font-family: "QuicksandLight";
+  text-transform: uppercase;
+}
 
 .navbar .nav  li a.active {
   padding-top: 15px;
@@ -106,9 +143,11 @@ footer {
   font-size: 25px;
   font-weight: 200;
   color: white;
-  padding-top: 10px;
-  padding-bottom: 5px;
+  padding-top: 15px;
+  padding-bottom: 0px;
   margin-left: 25px;
+  font-family: "QuicksandLight";
+  text-transform: uppercase;
 }
 
 .navbar .brand-logo img {
