@@ -203,6 +203,10 @@ footer {
   background-repeat: no-repeat;
   padding-left: 18%;
 }
+
+.index-hero h1 {
+  margin: 0.2em 0;
+}
 	
 
 /* Responsive ======================================================== */
