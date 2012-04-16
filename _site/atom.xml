@@ -4,7 +4,7 @@
  <title>steeleforge</title>
  <link href="http://steeleforge.com/atom.xml" rel="self"/>
  <link href="http://steeleforge.com"/>
- <updated>2012-03-19T23:21:38-05:00</updated>
+ <updated>2012-04-15T21:44:54-05:00</updated>
  <id>http://steeleforge.com</id>
  <author>
    <name>David Steele</name>
@@ -13,11 +13,61 @@
 
  
  <entry>
-   <title>Budget Rig</title>
+   <title>Exploring Node.js Web Frameworks and Coffee-Script</title>
+   <link href="http://steeleforge.com/2012/04/15/ironpad"/>
+   <updated>2012-04-15T00:00:00-05:00</updated>
+   <id>hhttp://steeleforge.com/2012/04/15/ironpad</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;ve read &lt;a href='http://trevorburnham.com/'&gt;Trevor Burnham&lt;/a&gt;&amp;#8217;s &lt;a href='http://pragprog.com/book/tbcoffee/coffeescript'&gt;book&lt;/a&gt; on &lt;a href='http://coffeescript.org/'&gt;coffee-script&lt;/a&gt; which I really enjoyed, and I&amp;#8217;ve been itching at doing more with it. Well, node.js provides a great opportunity to write a significant amount of Javascript to do interesting things, and since the web is near &amp;amp; dear to me I figured it was time for me to take a serious shot at learning a web framework. Now, to be honest, I&amp;#8217;ve been looking into this for a while but found it difficult to stick to something. Therefore, the hope is that writing about it will commit me to producing a fairly complete toy site rather than my random dabblings.&lt;/p&gt;
+
+&lt;p&gt;Javascript isn&amp;#8217;t my favorite language but coffee really helps hide the warts &amp;#8211; it&amp;#8217;s like putting makeup on a really fun pig. Although the pig is fundamentally the same, a pig with makeup has to more fun, right? &lt;strong&gt;&lt;em&gt;Bonus&lt;/em&gt;&lt;/strong&gt;: I avoid &lt;a href='https://github.com/twitter/bootstrap/issues/3057'&gt;this drama&lt;/a&gt;. Anyways, theoretically, I can use any node framework with coffee-script so that doesn&amp;#8217;t narrow the set. From what I can tell, the framework you use is, as with so much in this field, is dependent on the solution you&amp;#8217;re trying to build and some frameworks are far more appropriate for a problem domain than others. What follows is a brief list of what I&amp;#8217;ve seen out there in the burgeoning node ecosystem and what their sweetspots are purported to be.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://expressjs.com/'&gt;expressjs&lt;/a&gt; - connect wrapper, good router, solid sinatra analog, basis of many of the below frameworks&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://www.socketstream.org/'&gt;socketstream&lt;/a&gt; - real-time game/RIAs&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://geddyjs.org/'&gt;geddy&lt;/a&gt; - rails approach to a node webapp&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://brunch.io/'&gt;brunch&lt;/a&gt; - express-ish approach but with an opinionated set of various independently maintained node modules. coffee is the intended dialect.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://zappajs.org/'&gt;zappa&lt;/a&gt; - similar to brunch but with some homegrown approaches rather than &amp;#8216;curating&amp;#8217; other node packages&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://batmanjs.org/'&gt;batman&lt;/a&gt; - again, similar to brunch in it&amp;#8217;s coffee as dialect, but with emphasis on binding values to the view&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://flatironjs.org/'&gt;flatiron&lt;/a&gt; - newish framework that distinguishes itself from the pack by being browser/CLI agnostic and comprised of a la-cart tech stack built from the ground-up. What is interesting about flatiron is Union &amp;#8211; flatiron&amp;#8217;s middleware solution which is distinct from but analog to the ubiquitous connect middleware common in nearly all other frameworks.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://www.meteor.com/'&gt;meteor&lt;/a&gt; - brand, brand new; but a radical departure from the standard client/server delegation of responsibilities. I&amp;#8217;ll keep an eye on this one, but will see what can be done about auth &amp;amp; sessions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Given the above, I&amp;#8217;ve toyed with at express, brunch, and zappa in reverse chronological order. I&amp;#8217;ve even built part of the solution in express before deciding on trying something changing gears. But now I want to commit; and I&amp;#8217;m going to build out my concept in flatiron. I&amp;#8217;ve no particualr &amp;#8220;this &amp;gt; that&amp;#8221; type of reasoning, but it seems that all the modules that comprise flatiron are philosphically aligned and the versions should play nicely with each other.&lt;/p&gt;
+
+&lt;p&gt;So there it is &amp;#8211; flatiron is the webframework, but what are the goals?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Further explore node.js&lt;/li&gt;
+
+&lt;li&gt;Practice coffee-script&lt;/li&gt;
+
+&lt;li&gt;Learn a new web framework&lt;/li&gt;
+
+&lt;li&gt;Build a toy project to completion of the original concept scope&lt;/li&gt;
+
+&lt;li&gt;Authentication support browserid&lt;/li&gt;
+
+&lt;li&gt;Use a persistence solution I&amp;#8217;ve not tried before. While working in express, I used mongodb &amp;amp; mongoose, but I&amp;#8217;m now considering redis &amp;amp; nohm&lt;/li&gt;
+
+&lt;li&gt;Integrate with ~~detail omitted pending possible directional change~~&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More to come soon, I hope.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title><del>Budget</del> Gaming Rig</title>
    <link href="http://steeleforge.com/2012/03/10/budget-rig"/>
    <updated>2012-03-10T00:00:00-06:00</updated>
    <id>hhttp://steeleforge.com/2012/03/10/budget-rig</id>
-   <content type="html">&lt;p&gt;I&amp;#8217;ve been collecting parts to build a budget desktop. Having not built one in 6 years, there&amp;#8217;s absolutely a lot to learn.&lt;/p&gt;
+   <content type="html">&lt;p&gt;I&amp;#8217;ve been collecting parts to build a &lt;del&gt;budget&lt;/del&gt; gaming desktop. Having not built one in 6 years, there&amp;#8217;s absolutely a lot to learn.&lt;/p&gt;
 
 &lt;h3 id='build_to_date'&gt;Build to date:&lt;/h3&gt;
 
@@ -30,11 +80,11 @@
 
 &lt;li&gt;Antec NEO ECO 620W PSU&lt;/li&gt;
 
-&lt;li&gt;Random Samsung DVD writer&lt;/li&gt;
+&lt;li&gt;Samsung Blu-ray player&lt;/li&gt;
 
-&lt;li&gt;Random old case&lt;/li&gt;
+&lt;li&gt;Antec Three Hundred Two&lt;/li&gt;
 
-&lt;li&gt;TBD: Video card! (waiting for Kepler impact)&lt;/li&gt;
+&lt;li&gt;ASUS GTX-680 &amp;#8211; yeah yeah, I know. Battlefield 3 on Ultra at well over 60fps while peanut butter for months.&lt;/li&gt;
 &lt;/ul&gt;</content>
  </entry>
  
