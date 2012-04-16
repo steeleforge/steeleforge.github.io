@@ -4,7 +4,7 @@
  <title>steeleforge</title>
  <link href="http://steeleforge.com/atom.xml" rel="self"/>
  <link href="http://steeleforge.com"/>
- <updated>2012-04-15T21:44:54-05:00</updated>
+ <updated>2012-04-15T21:50:40-05:00</updated>
  <id>http://steeleforge.com</id>
  <author>
    <name>David Steele</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Exploring Node.js Web Frameworks and Coffee-Script</title>
-   <link href="http://steeleforge.com/2012/04/15/ironpad"/>
+   <link href="http://steeleforge.com/2012/04/15/exploring-node-and-coffee"/>
    <updated>2012-04-15T00:00:00-05:00</updated>
-   <id>hhttp://steeleforge.com/2012/04/15/ironpad</id>
+   <id>hhttp://steeleforge.com/2012/04/15/exploring-node-and-coffee</id>
    <content type="html">&lt;p&gt;I&amp;#8217;ve read &lt;a href='http://trevorburnham.com/'&gt;Trevor Burnham&lt;/a&gt;&amp;#8217;s &lt;a href='http://pragprog.com/book/tbcoffee/coffeescript'&gt;book&lt;/a&gt; on &lt;a href='http://coffeescript.org/'&gt;coffee-script&lt;/a&gt; which I really enjoyed, and I&amp;#8217;ve been itching at doing more with it. Well, node.js provides a great opportunity to write a significant amount of Javascript to do interesting things, and since the web is near &amp;amp; dear to me I figured it was time for me to take a serious shot at learning a web framework. Now, to be honest, I&amp;#8217;ve been looking into this for a while but found it difficult to stick to something. Therefore, the hope is that writing about it will commit me to producing a fairly complete toy site rather than my random dabblings.&lt;/p&gt;
 
 &lt;p&gt;Javascript isn&amp;#8217;t my favorite language but coffee really helps hide the warts &amp;#8211; it&amp;#8217;s like putting makeup on a really fun pig. Although the pig is fundamentally the same, a pig with makeup has to more fun, right? &lt;strong&gt;&lt;em&gt;Bonus&lt;/em&gt;&lt;/strong&gt;: I avoid &lt;a href='https://github.com/twitter/bootstrap/issues/3057'&gt;this drama&lt;/a&gt;. Anyways, theoretically, I can use any node framework with coffee-script so that doesn&amp;#8217;t narrow the set. From what I can tell, the framework you use is, as with so much in this field, is dependent on the solution you&amp;#8217;re trying to build and some frameworks are far more appropriate for a problem domain than others. What follows is a brief list of what I&amp;#8217;ve seen out there in the burgeoning node ecosystem and what their sweetspots are purported to be.&lt;/p&gt;
